@@ -1,8 +1,9 @@
 import m from 'mithril'
 
-let id = 1;
+let id = 1
 
 let Todo = {
+    
     list: [
         {
             activity: 'Go Shopping',
