@@ -1,8 +1,8 @@
 module.exports = {
-    entry: './src/index.js',
+    entry: "./src/index",
     output: {
-        path: './bin',
-        filename: 'app.js',
+        path: __dirname,
+        filename: "[name].bundle.js"
     },
     module: {
         loaders: [{
@@ -10,5 +10,5 @@ module.exports = {
             exclude: /node_modules/,
             loader: 'babel-loader'
         }]
-    }
-}
+    },
+};
