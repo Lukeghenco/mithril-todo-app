@@ -1,0 +1,77 @@
+body,.input,.button {
+    font:normal 16px Helvetica Neue;
+    margin: 0;
+}
+
+.layout {
+    max-width:1000px;
+}
+.menu {
+    margin:0 0 30px;
+    background: black;
+    height: 20px;
+    padding: 12px;
+}
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0;
+}
+.main-content {
+    padding: 16px;
+}
+
+.todo-list {
+    margin:0 0 10px;
+    padding:0;
+}
+.todo-list-item {
+    background:#fff;
+    border:2px solid #000;
+    border-radius: 6px;
+    display:block;
+    margin:10px auto;
+    padding:8px 15px;
+    width: 90%;
+}
+.todo-list-item a {
+    color:#000;
+    text-decoration:none;
+}
+.todo-list-item a:hover {
+    text-decoration:underline;
+}
+.todo-list-item span {
+    cursor: pointer;
+}
+
+
+.label {
+    margin:0 auto;
+    width:90%;
+}
+.input {
+    border:2px solid #000;
+    border-radius:6px;
+    display:block;
+    margin:10px auto;
+    padding:8px 15px;
+    width:90%;
+}
+.button {
+    background:mediumblue;
+    text-align: center;
+    display: block;
+    border: solid 1px white;
+    border-radius:3px;
+    color:ghostwhite;
+    margin:0 auto;
+    width:60px;
+    font-size:20px;
+    text-decoration:none;
+}
+.button:hover {
+    background:ghostwhite;
+    color:mediumblue;
+    border: solid 1px mediumblue;
+}
